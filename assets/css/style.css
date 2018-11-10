@@ -79,7 +79,6 @@ body{
 .topnav{
     margin: -3em 0 0 45em;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: #ffffff;
     font-size: 20px;
     color: #777777;  
 }
@@ -136,7 +135,7 @@ input {
 #footer2 {
     clear: both;
     position: relative;
-    height: .5em;
+    height: 3em;
     width: 55em;
     margin-top: 0em;
     background-color: #777777;
@@ -238,4 +237,106 @@ width: 400px;
 .submit:hover{
     background-color: #4aaaa5;
 
+}
+@media screen and (max-width: 640px){
+    header {
+        background-color: #ffffff;
+        border: #cccccc solid 3px;
+        height: 100px;
+        width: 445px;
+        margin: 0px;
+    }
+    h1 {
+        display: block;
+        font-size: 40px;
+        font-weight: bold;
+        width: 445px;
+        margin: 0 0 20px 0;
+        
+    }
+    .poof{ position: static;
+           top:0;
+           padding: .5px 0px;
+           width: 175px;
+           height: 70px:
+          
+
+    }
+    .topnav{position: static;;
+            top: 0;
+            margin: 0;
+            font-size: 25px;
+            padding-left: 90px;
+
+
+    }
+    #picture{ height: 10em;
+              width: auto;
+              padding: 0;
+              margin: 2px;
+
+    }
+    .structure{ font-size: 15px;
+                width: 450px;
+                height: 1200px;
+               margin: 0px;
+
+
+    }
+    .block_1 {
+        background-color: darkgray;
+        height: 10px;
+        width: 400px;
+    }
+    #footer{
+        width: 600px;
+    }
+    #footer2{
+        width: 600px;
+    }
+    #picture1{ margin: 0px 0px 30px 0px;
+               float: none;
+               padding: 10px 5px 10px 0px;
+    }
+    #picture2{margin: 0px 0px 30px 0px;
+              float: none;
+             padding: 10px 5px 10px 0px;
+    }
+    #picture3{margin: 0px 0px 30px 0px;
+              float: none;
+              padding: 10px 5px 10px 0px;
+    }
+    #picture4{margin: 0px 0px 30px 0px;
+              float: none;
+              padding: 10px 5px 10px 0px;
+    }
+    #picture5{margin: 0px 0px 30px 0px;
+              float: none;
+             padding: 10px 5px 10px 0px;
+
+    }
+    .hangman{
+        right: 0px;
+        top: -620px;
+    }
+    .rpgGame{
+        right: 0px;
+        top: -410px;
+        left: 0px;
+    }
+    .triviaGame{right: 0px;
+                top: -220px;
+    }
+    .rutgers{right: 0px;
+             top: 100px;
+             left: 0px;
+    }
+
+ }
+
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width: 980px){
+    
 }
