@@ -240,6 +240,7 @@ width: 400px;
 }
 .submit:hover{
     background-color: #4aaaa5;
+    color: white;
 
 }
 @media screen and (max-width: 640px){
