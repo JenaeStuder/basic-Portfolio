@@ -2,7 +2,7 @@ header{
     background-color: #ffffff;
     border: #cccccc solid 3px;
     height: 88px;
-    width: 55em;
+    width: 150%;
     margin: 0px;
 
 }
@@ -128,7 +128,7 @@ input {
     clear: both;
     position: relative;
     height: .5em;
-    width: 55em;
+    width: 150%;
     margin-top: -1em;
     background-color: #4aaaa5;
 }
@@ -136,7 +136,7 @@ input {
     clear: both;
     position: relative;
     height: 3em;
-    width: 55em;
+    width: 150%;
     margin-top: 0em;
     background-color: #777777;
 }
@@ -176,17 +176,17 @@ height:200px;
 width: 400px;
 }
 
-.hangman{
+ .hangman{
     height: 50px;
     width: 400px;
     background-color: #4aaaa5;
     color: #777777;
-    z-index: 1;
-    position: relative;
-    top: 150px;
-    right: -10.5px;
+    position: absolute;
+    top: 390px;
+    left: 250px;
+    text-align: center;
 
-}
+} 
 
 .rpgGame{
     height: 50px;
@@ -194,9 +194,10 @@ width: 400px;
     background-color: #4aaaa5;
     color: #777777;
     z-index: 1;
-    position: relative;
-    top: 100px;
-    left: 450px;
+    position: absolute;
+    top: 625px;
+    left: 250px;
+    text-align: center;
 
 }
 
@@ -206,9 +207,10 @@ width: 400px;
     background-color: #4aaaa5;
     color: #777777;
     z-index: 1;
-    position: relative;
-    top: 250px;
-    right: -10.5px:
+    position: absolute;
+    top: 625px;
+    left: 694px;
+    text-align: center;
 
 }
 .rutgers{
@@ -217,9 +219,10 @@ width: 400px;
     background-color: #4aaaa5;
     color: #777777;
     z-index: 1;
-    position: relative;
-    top: 200px;
-    left: 451px;
+    position: absolute;
+    top: 840px;
+    left: 250px;
+    text-align: center
 
 }
 
@@ -229,9 +232,10 @@ width: 400px;
     background-color: #4aaaa5;
     color: #777777;
     z-index: 1; 
-    position: relative;
-    top: 370px;
-    right: -12px;
+    position: absolute;
+    top: 410px;
+    left: 694px;
+    text-align: center
 
 }
 .submit:hover{
